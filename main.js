@@ -1,3 +1,4 @@
+/*
 const btn = document.getElementById("button");
 
 const rainbow = [
@@ -15,3 +16,11 @@ function change() {
 }
 
 btn.addEventListener("click", change);
+*/
+
+const avengers = ["captain america", "ironman", "thor", "hulk"];
+
+console.log(
+  `${avengers[avengers.length - 1]} is the most strongest avengers`,
+  `${avengers[0]} is the weakest avengers`
+);
