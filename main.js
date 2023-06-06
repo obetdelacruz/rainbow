@@ -1,4 +1,3 @@
-/*
 const btn = document.getElementById("button");
 
 const rainbow = [
@@ -9,14 +8,17 @@ const rainbow = [
   "blue",
   "rebeccapurple",
   "violet",
+  "brown",
+  "black",
+  "white",
 ];
 
 function change() {
-  document.body.style.background = rainbow[Math.floor(7 * Math.random())];
+  document.body.style.background =
+    rainbow[Math.floor(rainbow.length * Math.random())];
 }
 
 btn.addEventListener("click", change);
-*/
 
 const avengers = ["captain america", "ironman", "thor", "hulk"];
 
