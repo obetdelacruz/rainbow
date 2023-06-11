@@ -36,7 +36,7 @@ console.log(average);
 
 const myGrades({
   name: {
-    first: {type: String, name: "First Name", required: true}
+    first: {type: String, name: "First Name", required: true},
     last:{type: String, name: "Last Name", required: true}
   },
   
@@ -48,10 +48,15 @@ const myGrades({
     Music: 80,
     Arts: 80,
     PE: 80,
-    Health: 80
+    Health: 80,
     GMRC: 80,
     Gneral_Average: 80
   },
 });
 
-const myGrades = ["sss", "sss", "sss"]
+function myGrades() {
+  let sum = 0;
+  sum = myGrades[Filipino] + myGrades[English] + myGrades[Math] + myGrades[Araling_Panlipunan] + myGrades[Mapeh];
+  let average = sum / myGrades.length;
+  console.log(average);
+}
