@@ -53,3 +53,5 @@ const myGrades({
     Gneral_Average: 80
   },
 });
+
+const myGrades = ["sss", "sss", "sss"]
